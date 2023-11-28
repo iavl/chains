@@ -1,0 +1,28 @@
+{
+  "name": "Crossbell Testnet",
+  "chain": "Crossbell Testnet",
+  "icon": "crossbell-testnet",
+  "rpc": ["https://rpc.testnet.crossbell.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Crossbell Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://crossbell.io/",
+  "shortName": "Crossbell Testnet",
+  "chainId": 11155222,
+  "networkId": 11155222,
+  "explorers": [
+    {
+      "name": "Crossbell Testnet Explorer",
+      "url": "http://scan.testnet.crossbell.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-5",
+    "bridges": []
+  }
+}
